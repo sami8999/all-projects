@@ -1,0 +1,12 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "problems.decorations.enabled": false,
+    "java.errors.incompleteClasspath.severity": "error",
+    "java.configuration.maven.notCoveredPluginExecutionSeverity": "error",
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "python.linting.pycodestyleCategorySeverity.W": "Error",
+    "java.project.sourcePaths": [
+        "Java\\OOP",
+        "Java\\Procedural"
+    ]
+}

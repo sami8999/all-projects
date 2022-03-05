@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BankingApp",
+            "request": "launch",
+            "mainClass": "Labs.Lab5.BankingApp",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankingApp",
+            "request": "launch",
+            "mainClass": "Labs.Lab3.BankingApp",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankingApp",
+            "request": "launch",
+            "mainClass": "Labs.Lab4.BankingApp",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankingApp",
+            "request": "launch",
+            "mainClass": "Labs.Labs.Lab3.BankingApp",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch BankingApp",
+            "request": "launch",
+            "mainClass": "Labs.Lab2.BankingApp",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiniProjectLevel8",
+            "request": "launch",
+            "mainClass": "miniprojects.MiniProjectLevel8",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch bubbleSort",
+            "request": "launch",
+            "mainClass": "practiseQuestions.bubbleSort",
+            "projectName": "Coding_e224f1a6"
+        },
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Java",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
