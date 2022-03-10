@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+     font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header{
+    
+    
+    text-align: center; 
+    background: #3A69D2;
+    padding: 30px; 
+    color: white;
+
+    
+}
+
+header #heading{
+    
+    
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 0px;
+    letter-spacing: -0.02em;
+    
+}
+
+header #sub-heading{
+    
+    font-size: 16px;
+    line-height: 0px;
+
+    
+}
+
+
+#columns{
+    margin-top: 20px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    
+}
+
+
+.add-btn{
+    align-items: center;
+    padding: 9px 13px;
+    height: 45px;
+    margin: 20px; 
+    background: #D1D4F4;
+    border: 2px solid #D5D4D8;
+    border-radius: 7px;
+    color: #4A4E74;
+    
+    
+}
+
+#columns2{
+    
+    display: flex; 
+    width: 100%; 
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #D5D4D8;
+    margin-bottom: -20px; 
+    
+    
+}
+
+
+#task{
+    margin: 0 auto;
+    margin-left: 60px;   
+    
+}
+
+#total{
+    
+    margin-right: 60px; 
+    
+    
+} 
+
+#line{
+    margin: 0 auto; 
+    width: 500px;
+    border: 1px solid #C3C6DB;
+    
+}
+
+
+.list-column{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -0px; 
+    
+    
+}
+
+.list-text{
+    
+    color: #F5F5F5; 
+    font-size: 20px;
+    
+}
+
+.list-remove{
+    margin-top: 24px;
+    margin-left: 30px;
+    width: 31px;
+    height: 20px; 
+    font-size: 8px;
+    line-height: 20px;
+    background: transparent;
+    border: 0; 
+    color: #D5D4D8;    
+}
+
+.list-price1{
+    
+    margin-left: 322px;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.list-price2{
+    
+    margin-left: 308px;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+
+.list-price3{
+    
+    margin-left: 311px;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+#notes-text{
+    
+    display: flex; 
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    color: #D5D4D8;
+    margin-left: 60px;
+}
+
+#notes{
+    
+    margin: auto; 
+    margin-left: 0px; 
+}
+
+#amount{
+    
+    margin-right: 70px; 
+}
+
+#cash-el{
+    
+    display: flex;
+    color: #F5F5F5;
+    margin-top: -50px; 
+}
+
+#paypal{
+    
+    margin: auto; 
+    margin-left: 57px; 
+}
+
+#price{
+    margin-right: 70px; 
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#send-invoice{
+    width: 100%;
+    margin: 0 auto; 
+}
