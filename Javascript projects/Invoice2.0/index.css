@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #1F2937;
+    min-width: 600px;
+}
+
+/* Typography */
+h1{
+    font-size: 40px;
+    margin:0;
+    
+}
+
+h2{
+    margin-top: 5px;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.receipt-text{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* buttons */
+
+.buy-btn{
+    
+    background: #D1D4F4;
+    border: 2px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 9px 13px;
+
+    
+}
+
+.second-btn{
+    margin-left: auto;
+}
+
+.third-btn{
+    margin-left: auto;
+}
+
+
+/* Layout */
+.hero{
+    background: #3A69D2;
+    padding: 30px;
+}
+
+.heading-container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-section{
+    background: #1F2937;
+    padding-top: 20px; 
+    /* height: 100%; */
+}
+
+.main-container{
+    width: 480px;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.invoice-headings-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.move-right{
+    margin-left: auto;
+}
+
+.receipt-container{
+    display: flex;
+}
+
+#line{
+    margin: 0 auto; 
+    width: 100%;
+    border: 1px solid #C3C6DB;
+    
+}
+
+.send-invoice{
+    margin-top: 30px;
+    color: white;
+    background: #3A69D2;
+    border-radius: 7px;
+    padding: 9px 17px 9px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+
