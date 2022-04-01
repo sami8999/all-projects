@@ -5,6 +5,7 @@
     "java.configuration.maven.notCoveredPluginExecutionSeverity": "error",
     "python.linting.flake8CategorySeverity.W": "Error",
     "python.linting.pycodestyleCategorySeverity.W": "Error",
+    "editor.matchBrackets": "never",
     "java.project.sourcePaths": [
         "Java\\OOP",
         "Java\\Procedural"
