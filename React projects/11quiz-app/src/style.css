@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0; 
+}
+
+
+/* Open Page styling */
+
+.open-page{
+    height: 100vh;
+    background: #F5F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/blob.png"), url("./images/secondblob.png");
+    background-repeat: no-repeat;
+    background-position: right top, left bottom; 
+}
+
+.open-page-content{
+    text-align: center;
+    font-style: normal;
+    color: #293264;
+}
+
+.open-page-content h1{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+    margin-top: 0px; 
+    margin-bottom: 7px;
+    
+}
+
+.open-page-content h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 0px;
+    margin-bottom: 29px;
+    
+}
+
+.open-page-content button{
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5F7FB;
+    margin-top: 0px; 
+}
+
+
+/* game page */ 
+
+.game-page{
+    min-height: 100vh;
+    background: #F5F7FB;
+    background-image: url("./images/thirdblob.png"), url("./images/fourthblob.png");
+    background-repeat: no-repeat;
+    background-position: right top, left bottom; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-questions{
+
+    margin-top: 20px;
+}
+.question-container{
+    width: 600px;
+    border-bottom: 0.794239px solid #DBDEF0;
+    margin-bottom: 15px
+}
+
+.question{
+    margin-top: 0px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+}
+
+.answers-button{
+    
+    margin-right: 13px;
+    padding: 4px 15px;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;
+    margin-bottom: 13px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #293264;
+}
+
+.answers-button:hover, .answers-button:focus {
+  outline:none;
+  box-shadow: none;
+}
+
+.results{
+    display: flex
+}
+.check-answers{
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: #F5F7FB;
+    padding: 10px 22px;
+    margin-bottom: 20px;
+    
+}
+
+.score{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 25px
+}

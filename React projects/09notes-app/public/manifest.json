@@ -1,0 +1,16 @@
+{
+  "short_name": "Notes",
+  "name": "Notes App",
+  "icons": {
+    "16": "favicon.ico",
+    "48": "logo192.png",
+   "128": "logo512.png"
+  },
+  "permissions": [],
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Notes app"
+  }
+}
